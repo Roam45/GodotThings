@@ -4,7 +4,7 @@ extends CharacterBody2D
 
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
-const COYOTE_TIME = 0.2  # Duration of coyote time in seconds
+const COYOTE_TIME = 0.1  # Duration of coyote time in seconds
 const MAX_JUMPS = 2  # Maximum number of jumps (1 for normal jump, 2 for double jump)
 
 var coyote_time_left = 0.0  # Tracks remaining coyote time
